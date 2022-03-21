@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form">
+        <!--navn inputfelt-->
+        <input required type="text" name="navn" id="">
+        <!--alder inputfelt-->
+        <input required type="number" name="alder" id="">
+        <br><br>
+        <!--drikke radioknapper-->
+        <label for="vann">vann</label>
+        <input required type="radio" name="drikke" id="vann" value="vann"> <br>
+        <label for="brus">brus</label>
+        <input type="radio" name="drikke" id="brus" value="brus">
+        <br><br>
+        <!--checboxer-->
+        <label for="burger">burger</label>
+        <input type="checkbox" name="mat" id="burger" value="burger"> <br>
+        <label for="burger">pizza</label>
+        <input type="checkbox" name="mat" id="pizza" value="pizza"> <br>
+        <label for="burger">pasta</label>
+        <input type="checkbox" name="mat" id="pasta" value="pasta"> <br>
+        <label for="mer">mer</label>
+        <input type="checkbox" name="mat" id="mer" value="mer">
+        
+        <br><br>
+        <!--submit knapp-->
+        <button>trykk</button> <br>
+        <!--output area-->
+        <textarea name="info" id="info" cols="150" rows="3"></textarea>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
